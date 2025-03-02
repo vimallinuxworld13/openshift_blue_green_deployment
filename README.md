@@ -1,0 +1,1 @@
+# openshift_blue_green_deployment
