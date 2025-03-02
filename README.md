@@ -1,5 +1,10 @@
 # openshift_blue_green_deployment
 
+# Perform in-place Kubernetes updates with a Blue/Green Deployment
+
+
+
+
 oc new-app quay.io/rhdevelopers/gethostname:v1 --name gethostname-v1
 
 oc expose service/gethostname-v1 --name gethostname-microservice
